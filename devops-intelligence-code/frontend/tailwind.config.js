@@ -1,0 +1,1 @@
+export default { content: ['./index.html','./src/**/*.{ts,tsx}'], theme: { extend: { colors: { ink:'#0B0D0F', panel:'#111418', sidebar:'#0E1113', border:'#1E2328', muted:'#98A2AD', accent:'#2E9E6B', danger:'#E5484D', warn:'#F5A524' }, fontFamily: { sans:['Inter','system-ui','sans-serif'], mono:['JetBrains Mono','monospace'] } } }, plugins: [] }

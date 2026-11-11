@@ -1,0 +1,9 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body{ background:#0B0D0F; color:#E8EAED; font-family:Inter,system-ui,sans-serif; }
+.mono{ font-family:'JetBrains Mono',monospace; font-variant-numeric:tabular-nums; }
+.card{ background:#111418; border:1px solid #1E2328; border-radius:8px; }
+.btn{ border-radius:6px; padding:8px 12px; font-size:13px; font-weight:600; border:1px solid #1E2328; background:#1E2328; color:#E8EAED; }
+.btn-primary{ background:#2E9E6B; color:#000; border-color:#2E9E6B; }
+.pill{ border-radius:4px; padding:2px 6px; font-size:11px; font-weight:600; }
+input,select{ background:#0B0D0F; border:1px solid #1E2328; border-radius:6px; padding:8px 10px; font-size:13px; width:100%; }
+table{ width:100%; font-size:13px; } th{ text-align:left; color:#98A2AD; font-size:11px; text-transform:uppercase; padding:10px 12px; border-bottom:1px solid #1E2328; } td{ padding:10px 12px; border-bottom:1px solid #1E2328; }
